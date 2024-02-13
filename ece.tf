@@ -5,7 +5,7 @@ provider "aws" {
 
 
 resource "aws_instance" "app-server" {
-    ami = "ami-0e731c8a588258d0d" 
+    ami = "image id" 
     instance_type = "t2.micro"
-    subnet_id = " subnet-0975257dc36fa68cc" #subnet is of ec2 instance
+    subnet_id = " subnet_id" #subnet is of ec2 instance
  }
